@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/EagerLazyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/EagerLazyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Instructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Instructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/FetchJoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,22 +77,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EagerLazyDemo">
+  <component name="RunManager" selected="Application.FetchJoinDemo">
     <configuration name="CreateCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateCoursesDemo" />
-      <module name="hibernate1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.hibernate.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateInstructorDemo" />
       <module name="hibernate1" />
       <extension name="coverage">
         <pattern>
@@ -130,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FetchJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.FetchJoinDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.GetInstructorCoursesDemo" />
       <module name="hibernate1" />
@@ -144,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateInstructorDemo" />
       <item itemvalue="Application.CreateCoursesDemo" />
       <item itemvalue="Application.GetInstructorCoursesDemo" />
       <item itemvalue="Application.DeleteCourseDemo" />
       <item itemvalue="Application.EagerLazyDemo" />
+      <item itemvalue="Application.FetchJoinDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FetchJoinDemo" />
         <item itemvalue="Application.EagerLazyDemo" />
         <item itemvalue="Application.GetInstructorCoursesDemo" />
         <item itemvalue="Application.DeleteCourseDemo" />
         <item itemvalue="Application.CreateCoursesDemo" />
-        <item itemvalue="Application.CreateInstructorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -174,14 +174,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="21820000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
-      <created>1569321790057</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1569321790057</updated>
+      <workItem from="1569394530583" duration="23981000" />
     </task>
     <task id="LOCAL-00002" summary="Map fields to column in the database, create constructor with getters and setters">
       <created>1569322338167</created>
@@ -519,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569422387440</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Implement Eager and Lazy loading">
+      <created>1569447005386</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1569447005395</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +542,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method." />
     <MESSAGE value="Create an Instructor class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field and the foreign key which is the instructor_detail_id, showing entity relationship(one-to-one relationship) which is generated on the db, Create a getter and setter method for all fields and override a toString method, annotate the foreign key with a one-one annotations using Cascade.ALL" />
     <MESSAGE value="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL" />
     <MESSAGE value="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete" />
@@ -567,7 +566,8 @@
     <MESSAGE value="Implement Lazy Loading to access getCourse after the session has been closed and it threw an error breaking the code while implementing Eager loading to access courses after the session has been closed and it was able to get the courses." />
     <MESSAGE value="Using the getter method earlier on before closing the session" />
     <MESSAGE value="Using the getter method earlier on before closing the session to evade exception while calling the getter method after the session has been closed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using the getter method earlier on before closing the session to evade exception while calling the getter method after the session has been closed" />
+    <MESSAGE value="Implement Eager and Lazy loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Eager and Lazy loading" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

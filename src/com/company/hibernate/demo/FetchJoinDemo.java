@@ -6,6 +6,7 @@ import com.company.hibernate.demo.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
 public class FetchJoinDemo {
   
@@ -26,15 +27,26 @@ public class FetchJoinDemo {
       
       //Start a transaction
       session.beginTransaction();
+  
+      //Option 2: Hibernate query with HQL
       
       //Create the bi-directional relationship between many courses and an  instructor.
       //Get the instructor from the db
       int theId = 1;
-      Instructor tempInstructor = session.get(Instructor.class, theId);
+      Query<Instructor> query = session.createQuery("select i from Instructor i " +
+                      "JOIN FETCH i.courses" +
+                      " where i.id =:theInstructorId "
+              , Instructor.class);
+  
+      //Set parameter on the query
+      query.setParameter("theInstructorId", theId);
+  
+      //execute query and get instructor
+      Instructor tempInstructor = query.getSingleResult();
+      
       System.out.println("luv2Code: Instructor: " + tempInstructor);
-      System.out.println("luv2Code: Courses: " + tempInstructor.getCourses());
-      
-      
+  
+  
       //Commit transaction
       session.getTransaction().commit();
       
