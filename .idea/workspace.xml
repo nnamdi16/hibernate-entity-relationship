@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Instructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Instructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +172,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="16498000" />
+      <workItem from="1569394530583" duration="17264000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -475,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569419358650</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Implement Lazy Loading for optimisation.">
+      <created>1569420223766</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1569420223766</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +505,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Bulk update using executeUpdate methpd" />
     <MESSAGE value="Implement delete in HQL using HQL delete query and session's delete method" />
     <MESSAGE value="Delete and modify some file" />
     <MESSAGE value="Add InstructionDetail and Instructor class" />
@@ -523,7 +529,8 @@
     <MESSAGE value="Create a class  DeleteCourseDemo to delete a particular course without deleting the instructor nor the instructor details" />
     <MESSAGE value="Create a class  GetInstructorCoursesDemo to get an instructor and the instructor details and courses associated with them." />
     <MESSAGE value="Implement Eager Loading for optimisation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Eager Loading for optimisation." />
+    <MESSAGE value="Implement Lazy Loading for optimisation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Lazy Loading for optimisation." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
