@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="17264000" />
+      <workItem from="1569394530583" duration="17616000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -482,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569420223766</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Implement Lazy Loading to access getCourse after the session has been closed and it threw an error breaking the code while implementing Eager loading to access courses after the session has been closed and it was able to get the courses.">
+      <created>1569421325569</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1569421325569</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +509,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Implement delete in HQL using HQL delete query and session's delete method" />
     <MESSAGE value="Delete and modify some file" />
     <MESSAGE value="Add InstructionDetail and Instructor class" />
     <MESSAGE value="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method." />
@@ -530,7 +533,8 @@
     <MESSAGE value="Create a class  GetInstructorCoursesDemo to get an instructor and the instructor details and courses associated with them." />
     <MESSAGE value="Implement Eager Loading for optimisation." />
     <MESSAGE value="Implement Lazy Loading for optimisation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Lazy Loading for optimisation." />
+    <MESSAGE value="Implement Lazy Loading to access getCourse after the session has been closed and it threw an error breaking the code while implementing Eager loading to access courses after the session has been closed and it was able to get the courses." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Lazy Loading to access getCourse after the session has been closed and it threw an error breaking the code while implementing Eager loading to access courses after the session has been closed and it was able to get the courses." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
