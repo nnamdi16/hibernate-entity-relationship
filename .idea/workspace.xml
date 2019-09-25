@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/META-INF/hibernate1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/DeleteDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/DeleteDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/InstructorDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/InstructorDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteDemo">
+  <component name="RunManager" selected="Application.GetInstructorDetailDemo">
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateDemo" />
       <module name="hibernate1" />
@@ -107,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.GetInstructorDetailDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.TestJdbc" />
       <module name="hibernate1" />
@@ -120,33 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.UpdateStudentDemo" />
-      <module name="hibernate1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.hibernate.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.UpdateStudentDemo" />
       <item itemvalue="Application.DeleteStudentDemo" />
       <item itemvalue="Application.TestJdbc" />
       <item itemvalue="Application.CreateDemo" />
       <item itemvalue="Application.DeleteDemo" />
+      <item itemvalue="Application.GetInstructorDetailDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetInstructorDetailDemo" />
         <item itemvalue="Application.DeleteDemo" />
         <item itemvalue="Application.CreateDemo" />
         <item itemvalue="Application.TestJdbc" />
         <item itemvalue="Application.DeleteStudentDemo" />
-        <item itemvalue="Application.UpdateStudentDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +171,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="345000" />
+      <workItem from="1569394530583" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>

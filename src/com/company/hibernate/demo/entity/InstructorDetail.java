@@ -21,6 +21,7 @@ public class InstructorDetail {
 
     //Add new field for instructor (also add getters/setters)
     //Add OneToOne annotation (bi-directional)
+    @OneToOne(mappedBy = "instructorDetail", cascade = CascadeType.ALL)
     private Instructor instructor;
 
     public InstructorDetail() {
