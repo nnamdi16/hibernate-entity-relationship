@@ -42,7 +42,7 @@ public class EagerLazyDemo {
       session.close();
   
       //Get course for the instructor
-      //Since the courses are lazy-loaded this should fail
+      //Since the courses are lazy-loaded this should fail. It won't fail only if the courses were loaded before while the session was open.
       System.out.println("luv2Code: Courses: " + tempInstructor.getCourses());
     
       
