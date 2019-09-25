@@ -4,11 +4,6 @@
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCourseDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49afe123-ba95-4301-8b01-9d894625c3b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/49afe123-ba95-4301-8b01-9d894625c3b6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Instructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Instructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +173,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="9415000" />
+      <workItem from="1569394530583" duration="9725000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -369,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569402605427</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table">
+      <created>1569404693517</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569404693517</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +418,8 @@
     <MESSAGE value="Implement deleting a particular InstructorDetail using its ID without deleting associated Instructor by breaking the bi-directional link(removing associated object reference) and update the cascade except for remove type." />
     <MESSAGE value="Create a course class and implement many-to-one relationship using all the cascade types apart from remove" />
     <MESSAGE value="Implement a bi-directional relationship between the course and the instructor( one-to-many relationship), adopting all cascade types apart from remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement a bi-directional relationship between the course and the instructor( one-to-many relationship), adopting all cascade types apart from remove" />
+    <MESSAGE value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
