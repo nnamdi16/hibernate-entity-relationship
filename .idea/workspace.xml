@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCourseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +169,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="9725000" />
+      <workItem from="1569394530583" duration="10164000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -371,7 +367,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569404693517</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Create a new instructor and add Course table to the session factory">
+      <created>1569404780736</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569404780736</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Create a CreateInstructorDemo class">
+      <created>1569404825095</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1569404825095</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table">
+      <created>1569405133307</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1569405133307</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,9 +411,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table." />
-    <MESSAGE value="Map fields to column in the database, create constructor with getters and setters" />
-    <MESSAGE value="Create a toString method and added hibernate.cfg.xml file" />
     <MESSAGE value="Create a session factory,create a session, use the session object object to create java objects." />
     <MESSAGE value="Add SQL scripts for creating student and user tables" />
     <MESSAGE value="Create a setter and getter for Id and add @GenerateValue annotation to match the table" />
@@ -419,7 +433,10 @@
     <MESSAGE value="Create a course class and implement many-to-one relationship using all the cascade types apart from remove" />
     <MESSAGE value="Implement a bi-directional relationship between the course and the instructor( one-to-many relationship), adopting all cascade types apart from remove" />
     <MESSAGE value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
+    <MESSAGE value="Create a new instructor and add Course table to the session factory" />
+    <MESSAGE value="Create a CreateInstructorDemo class" />
+    <MESSAGE value="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
