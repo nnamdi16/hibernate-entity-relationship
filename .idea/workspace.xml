@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,7 +174,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="18644000" />
+      <workItem from="1569394530583" duration="21820000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -509,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569422327467</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Using the getter method earlier on before closing the session to evade exception while calling the getter method after the session has been closed">
+      <created>1569422387440</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1569422387440</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

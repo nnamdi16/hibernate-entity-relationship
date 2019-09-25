@@ -7,7 +7,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class EagerLazyDemo {
+public class FetchJoinDemo {
   
   public static void main(String[] args) {
     //Create session factory
@@ -33,21 +33,21 @@ public class EagerLazyDemo {
       Instructor tempInstructor = session.get(Instructor.class, theId);
       System.out.println("luv2Code: Instructor: " + tempInstructor);
       System.out.println("luv2Code: Courses: " + tempInstructor.getCourses());
-  
-  
+      
+      
       //Commit transaction
       session.getTransaction().commit();
-  
+      
       //Close the session
       session.close();
-  
+      
       System.out.println("\n luv2code: The session is now closed ! \n");
       
-  
+      
       //Get course for the instructor
       //Since the courses are lazy-loaded this should fail. It won't fail only if the courses were loaded before while the session was open.
       System.out.println("luv2Code: Courses: " + tempInstructor.getCourses());
-    
+      
       
       System.out.println("luv2Code: Done !!");
     } finally {
