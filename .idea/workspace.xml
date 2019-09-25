@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteCourseDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="12137000" />
+      <workItem from="1569394530583" duration="12462000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -440,7 +437,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569406663165</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Create a class  DeleteCourseDemo to delete a particular course without deleting the instructor nor the instructor details">
+      <created>1569407293384</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1569407293384</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Create a class  GetInstructorCoursesDemo to get an instructor and the instructor details and courses associated with them.">
+      <created>1569407414440</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1569407414440</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,8 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Query the database for all students in the database" />
-    <MESSAGE value="Query the database using certain parameters" />
     <MESSAGE value="Updating student profile and write further queries using the HQL Like query parameter." />
     <MESSAGE value="Bulk update using executeUpdate methpd" />
     <MESSAGE value="Implement delete in HQL using HQL delete query and session's delete method" />
@@ -488,7 +497,9 @@
     <MESSAGE value="Create a DeleteInstructorDetailDemo class" />
     <MESSAGE value="Create a course class to get instructor as well as the courses associated with the instructor." />
     <MESSAGE value="Create a course class to get instructor as well as the courses associated with the instructor added the save method to save the courses associated with the instructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a course class to get instructor as well as the courses associated with the instructor added the save method to save the courses associated with the instructor" />
+    <MESSAGE value="Create a class  DeleteCourseDemo to delete a particular course without deleting the instructor nor the instructor details" />
+    <MESSAGE value="Create a class  GetInstructorCoursesDemo to get an instructor and the instructor details and courses associated with them." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a class  GetInstructorCoursesDemo to get an instructor and the instructor details and courses associated with them." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
