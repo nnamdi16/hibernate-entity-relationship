@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetInstructorDetailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/GetInstructorDetailDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/GetInstructorDetailDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateDemo">
+  <component name="RunManager" selected="Application.DeleteInstructorDetailDemo">
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateDemo" />
       <module name="hibernate1" />
@@ -96,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteStudentDemo" />
+    <configuration name="DeleteInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteInstructorDetailDemo" />
       <module name="hibernate1" />
       <extension name="coverage">
         <pattern>
@@ -136,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeleteStudentDemo" />
       <item itemvalue="Application.TestJdbc" />
       <item itemvalue="Application.CreateDemo" />
       <item itemvalue="Application.DeleteDemo" />
       <item itemvalue="Application.GetInstructorDetailDemo" />
+      <item itemvalue="Application.DeleteInstructorDetailDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteInstructorDetailDemo" />
         <item itemvalue="Application.CreateDemo" />
         <item itemvalue="Application.GetInstructorDetailDemo" />
         <item itemvalue="Application.DeleteDemo" />
         <item itemvalue="Application.TestJdbc" />
-        <item itemvalue="Application.DeleteStudentDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +169,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="1715000" />
+      <workItem from="1569394530583" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -322,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569396167460</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add a catch block and close the session to avoid connection leakages when an Id not available in the database is passed.">
+      <created>1569396562875</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1569396562875</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +374,8 @@
     <MESSAGE value="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL" />
     <MESSAGE value="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete" />
     <MESSAGE value="Start with the instructor detail and go by bi-directional to access the referenced Instructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start with the instructor detail and go by bi-directional to access the referenced Instructor" />
+    <MESSAGE value="Add a catch block and close the session to avoid connection leakages when an Id not available in the database is passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a catch block and close the session to avoid connection leakages when an Id not available in the database is passed." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
