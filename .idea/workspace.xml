@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCourseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCoursesDemo.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateInstructorDemo">
+  <component name="RunManager" selected="Application.GetInstructorCoursesDemo">
+    <configuration name="CreateCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateCoursesDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateDemo" />
       <module name="hibernate1" />
@@ -99,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteDemo" />
-      <module name="hibernate1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.hibernate.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeleteInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteInstructorDetailDemo" />
       <module name="hibernate1" />
@@ -125,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.GetInstructorDetailDemo" />
+    <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.GetInstructorCoursesDemo" />
       <module name="hibernate1" />
       <extension name="coverage">
         <pattern>
@@ -140,18 +144,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CreateDemo" />
-      <item itemvalue="Application.DeleteDemo" />
-      <item itemvalue="Application.GetInstructorDetailDemo" />
       <item itemvalue="Application.DeleteInstructorDetailDemo" />
       <item itemvalue="Application.CreateInstructorDemo" />
+      <item itemvalue="Application.CreateCoursesDemo" />
+      <item itemvalue="Application.GetInstructorCoursesDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetInstructorCoursesDemo" />
+        <item itemvalue="Application.CreateCoursesDemo" />
         <item itemvalue="Application.CreateInstructorDemo" />
         <item itemvalue="Application.DeleteInstructorDetailDemo" />
         <item itemvalue="Application.CreateDemo" />
-        <item itemvalue="Application.GetInstructorDetailDemo" />
-        <item itemvalue="Application.DeleteDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="10164000" />
+      <workItem from="1569394530583" duration="11333000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -388,7 +392,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569405133307</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table">
+      <created>1569405143087</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1569405143087</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Create an instructor and Instructor details linking the instructor to the instructor detail">
+      <created>1569405262943</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569405262943</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Create a DeleteInstructorDetailDemo class">
+      <created>1569405336350</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569405336350</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,8 +436,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Create a session factory,create a session, use the session object object to create java objects." />
-    <MESSAGE value="Add SQL scripts for creating student and user tables" />
     <MESSAGE value="Create a setter and getter for Id and add @GenerateValue annotation to match the table" />
     <MESSAGE value="Create a QueryStudentDemo and ReadStudentDemo file for reading a student's record using it's Id" />
     <MESSAGE value="Query the database for all students in the database" />
@@ -436,7 +459,9 @@
     <MESSAGE value="Create a new instructor and add Course table to the session factory" />
     <MESSAGE value="Create a CreateInstructorDemo class" />
     <MESSAGE value="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table" />
+    <MESSAGE value="Create an instructor and Instructor details linking the instructor to the instructor detail" />
+    <MESSAGE value="Create a DeleteInstructorDetailDemo class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a DeleteInstructorDetailDemo class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
