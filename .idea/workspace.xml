@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/META-INF/hibernate1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/DeleteDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/DeleteDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/InstructorDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/InstructorDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetInstructorDetailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetInstructorDetailDemo">
+  <component name="RunManager" selected="Application.CreateDemo">
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateDemo" />
       <module name="hibernate1" />
@@ -149,9 +144,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateDemo" />
         <item itemvalue="Application.GetInstructorDetailDemo" />
         <item itemvalue="Application.DeleteDemo" />
-        <item itemvalue="Application.CreateDemo" />
         <item itemvalue="Application.TestJdbc" />
         <item itemvalue="Application.DeleteStudentDemo" />
       </list>
@@ -171,7 +166,7 @@
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
-      <workItem from="1569394530583" duration="1472000" />
+      <workItem from="1569394530583" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -306,7 +301,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569363879027</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Start with the instructor detail and go by bi-directional to access the referenced Instructor">
+      <created>1569396131621</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1569396131621</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Start with the instructor detail and go by bi-directional to access the referenced Instructor">
+      <created>1569396150910</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1569396150910</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Start with the instructor detail and go by bi-directional to access the referenced Instructor">
+      <created>1569396167460</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1569396167460</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +363,8 @@
     <MESSAGE value="Create an Instructor class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field and the foreign key which is the instructor_detail_id, showing entity relationship(one-to-one relationship) which is generated on the db, Create a getter and setter method for all fields and override a toString method, annotate the foreign key with a one-one annotations using Cascade.ALL" />
     <MESSAGE value="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL" />
     <MESSAGE value="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete" />
+    <MESSAGE value="Start with the instructor detail and go by bi-directional to access the referenced Instructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start with the instructor detail and go by bi-directional to access the referenced Instructor" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
