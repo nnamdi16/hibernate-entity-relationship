@@ -32,6 +32,8 @@ public class Instructor {
     @JoinColumn(name = "instructor_detail_id")
     private InstructorDetail instructorDetail;
     
+    //Resolving lazy loading issues and still access the data
+    //Option 1: Call the getter method while the session is open
     @OneToMany(fetch = FetchType.EAGER,
             mappedBy = "instructor", cascade = {CascadeType.DETACH,
             CascadeType.MERGE,
