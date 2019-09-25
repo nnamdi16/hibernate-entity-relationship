@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1RHLVcs1YoWV1QnmCEo6uCZAHZV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.hibernate.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DeleteDemo">
+    <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteStudentDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.TestJdbc" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.UpdateStudentDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UpdateStudentDemo" />
+      <item itemvalue="Application.DeleteStudentDemo" />
+      <item itemvalue="Application.TestJdbc" />
+      <item itemvalue="Application.CreateDemo" />
+      <item itemvalue="Application.DeleteDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DeleteDemo" />
+        <item itemvalue="Application.CreateDemo" />
+        <item itemvalue="Application.TestJdbc" />
+        <item itemvalue="Application.DeleteStudentDemo" />
+        <item itemvalue="Application.UpdateStudentDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
+      <created>1569319099793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569319099793</updated>
+      <workItem from="1569319103438" duration="21999000" />
+      <workItem from="1569358112085" duration="237000" />
+      <workItem from="1569358405217" duration="108000" />
+      <workItem from="1569358535681" duration="5869000" />
+      <workItem from="1569394530583" duration="345000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
+      <created>1569321790057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569321790057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Map fields to column in the database, create constructor with getters and setters">
+      <created>1569322338167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569322338167</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create a toString method and added hibernate.cfg.xml file">
+      <created>1569326364706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569326364706</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create a session factory,create a session, use the session object object to create java objects.">
+      <created>1569326461512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569326461512</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add SQL scripts for creating student and user tables">
+      <created>1569332139627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569332139627</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create a setter and getter for Id and add @GenerateValue annotation to match the table">
+      <created>1569332226536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569332226536</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create a QueryStudentDemo and ReadStudentDemo file for reading a student's record using it's Id">
+      <created>1569332310035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569332310035</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Query the database for all students in the database">
+      <created>1569333485964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569333485964</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Query the database using certain parameters">
+      <created>1569334398086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569334398086</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updating student profile and write further queries using the HQL Like query parameter.">
+      <created>1569338039853</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569338039853</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bulk update using executeUpdate methpd">
+      <created>1569339561913</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569339561913</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implement delete in HQL using HQL delete query and session's delete method">
+      <created>1569340576662</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569340576662</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Delete and modify some file">
+      <created>1569360942646</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569360942646</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add InstructionDetail and Instructor class">
+      <created>1569360997335</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569360997335</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method.">
+      <created>1569361234803</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569361234803</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method.">
+      <created>1569361252544</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569361252544</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create an Instructor class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field and the foreign key which is the instructor_detail_id, showing entity relationship(one-to-one relationship) which is generated on the db, Create a getter and setter method for all fields and override a toString method, annotate the foreign key with a one-one annotations using Cascade.ALL">
+      <created>1569361413352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569361413352</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL">
+      <created>1569363739569</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569363739569</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete">
+      <created>1569363879027</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569363879027</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table." />
+    <MESSAGE value="Map fields to column in the database, create constructor with getters and setters" />
+    <MESSAGE value="Create a toString method and added hibernate.cfg.xml file" />
+    <MESSAGE value="Create a session factory,create a session, use the session object object to create java objects." />
+    <MESSAGE value="Add SQL scripts for creating student and user tables" />
+    <MESSAGE value="Create a setter and getter for Id and add @GenerateValue annotation to match the table" />
+    <MESSAGE value="Create a QueryStudentDemo and ReadStudentDemo file for reading a student's record using it's Id" />
+    <MESSAGE value="Query the database for all students in the database" />
+    <MESSAGE value="Query the database using certain parameters" />
+    <MESSAGE value="Updating student profile and write further queries using the HQL Like query parameter." />
+    <MESSAGE value="Bulk update using executeUpdate methpd" />
+    <MESSAGE value="Implement delete in HQL using HQL delete query and session's delete method" />
+    <MESSAGE value="Delete and modify some file" />
+    <MESSAGE value="Add InstructionDetail and Instructor class" />
+    <MESSAGE value="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method." />
+    <MESSAGE value="Create an Instructor class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field and the foreign key which is the instructor_detail_id, showing entity relationship(one-to-one relationship) which is generated on the db, Create a getter and setter method for all fields and override a toString method, annotate the foreign key with a one-one annotations using Cascade.ALL" />
+    <MESSAGE value="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL" />
+    <MESSAGE value="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/ReadStudentDemo.java</url>
+          <line>9</line>
+          <properties class="com.company.hibernate.demo.ReadStudentDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/QueryStudentDemo.java</url>
+          <line>11</line>
+          <properties class="com.company.hibernate.demo.QueryStudentDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
