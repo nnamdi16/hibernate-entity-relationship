@@ -34,7 +34,7 @@ public class Instructor {
     
     //Resolving lazy loading issues and still access the data
     //Option 1: Call the getter method while the session is open
-    //Option 2: Q
+    //Option 2: HQL Query
     @OneToMany(fetch = FetchType.LAZY,
             mappedBy = "instructor", cascade = {CascadeType.DETACH,
             CascadeType.MERGE,
