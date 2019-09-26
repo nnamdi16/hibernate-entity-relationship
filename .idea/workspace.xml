@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569488688856</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Comments explaining the implementation of bi-directional relationship for one-one mapping.">
+      <created>1569490978829</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569490978829</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
