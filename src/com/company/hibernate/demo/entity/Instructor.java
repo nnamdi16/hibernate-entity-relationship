@@ -28,6 +28,7 @@ public class Instructor {
     //Set up relationship mapping between the Instructor and the InstructorDetails entity
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "instructor_detail_id")
+    //Link the InstructorDetail class to the Instructor by the instructor_details_id  foreign key column
     private InstructorDetail instructorDetail;
 
     public Instructor() {

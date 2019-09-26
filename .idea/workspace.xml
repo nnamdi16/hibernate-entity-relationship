@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteInstructorDetailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteInstructorDetailDemo">
+  <component name="RunManager" selected="Application.CreateDemo">
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateDemo" />
       <module name="hibernate1" />
@@ -145,8 +149,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteInstructorDetailDemo" />
         <item itemvalue="Application.CreateDemo" />
+        <item itemvalue="Application.DeleteInstructorDetailDemo" />
         <item itemvalue="Application.GetInstructorDetailDemo" />
         <item itemvalue="Application.DeleteDemo" />
         <item itemvalue="Application.TestJdbc" />
@@ -392,7 +396,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/ReadStudentDemo.java</url>
           <line>9</line>
-          <properties class="com.company.hibernate.demo.ReadStudentDemo" method="main">
+          <properties class="com.company.hibernate.demo.ReadStudentDemo">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
@@ -400,7 +404,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/QueryStudentDemo.java</url>
           <line>11</line>
-          <properties class="com.company.hibernate.demo.QueryStudentDemo" method="main">
+          <properties class="com.company.hibernate.demo.QueryStudentDemo">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
