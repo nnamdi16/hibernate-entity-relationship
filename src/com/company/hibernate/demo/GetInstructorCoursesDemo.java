@@ -35,8 +35,14 @@ public class GetInstructorCoursesDemo {
       
       //Get course for the instructor
       System.out.println("Courses: " + tempInstructor.getCourses());
-      
-      
+  
+      //Bi-directional implementation using a course Id to access the instructor.
+      int courseId = 11;
+      Course tempCourse = session.get(Course.class, courseId);
+      System.out.println("Get the course " + tempCourse);
+  
+      //Use the course to access the instructor
+      System.out.println("Instructor Info : " + tempCourse.getInstructor());
       session.getTransaction().commit();
       System.out.println("Done !!");
     } finally {
