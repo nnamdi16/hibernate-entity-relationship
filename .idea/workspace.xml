@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/CreateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Instructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -341,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569397280133</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Comments explaining the implementation of one-to-one relationship, using the foreign field in the Parent(Instructor Class) table to point or reference the primary field in the child table(InstructorDetail Class). Create a new profile at CreateDemo class to clearly understand the one-one relationship mapping uni-direction">
+      <created>1569488601683</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1569488601683</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +387,8 @@
     <MESSAGE value="Start with the instructor detail and go by bi-directional to access the referenced Instructor" />
     <MESSAGE value="Add a catch block and close the session to avoid connection leakages when an Id not available in the database is passed." />
     <MESSAGE value="Modify the CascadeType in InstructorDetail.java so that deleting an instructorDetail doesn't make for deleting an instructor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify the CascadeType in InstructorDetail.java so that deleting an instructorDetail doesn't make for deleting an instructor." />
+    <MESSAGE value="Comments explaining the implementation of one-to-one relationship, using the foreign field in the Parent(Instructor Class) table to point or reference the primary field in the child table(InstructorDetail Class). Create a new profile at CreateDemo class to clearly understand the one-one relationship mapping uni-direction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments explaining the implementation of one-to-one relationship, using the foreign field in the Parent(Instructor Class) table to point or reference the primary field in the child table(InstructorDetail Class). Create a new profile at CreateDemo class to clearly understand the one-one relationship mapping uni-direction" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

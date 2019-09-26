@@ -18,11 +18,17 @@ public class InstructorDetail {
 
     @Column(name = "hobby")
     private String hobby;
-
+  
+  //BI_DIRECTIONAL IMPLEMENTATION
     //Add new field for instructor (also add getters/setters)
     //Add OneToOne annotation (bi-directional)
 //    @OneToOne(mappedBy = "instructorDetail", cascade = CascadeType.ALL)
+  //With bi-direction you can load the info from the child and use that information to access the information from the parent.
     @OneToOne(mappedBy = "instructorDetail", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+    //mappedBy = "instructorDetail" refers/points to the instructor details property(instructorDetails)  in the instructor class.
+    //It means the instructor property is mapped by the instructorDetails property in the Instructor class.
+    //Mapped by  tell Hibernate to look at the instructorDetails property in the Instructor class, use the information from the
+    // instructor class @JoinColumn to help find the associated  instructor.
     private Instructor instructor;
 
     public InstructorDetail() {
