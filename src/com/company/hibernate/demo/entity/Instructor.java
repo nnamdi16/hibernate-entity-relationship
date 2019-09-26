@@ -36,6 +36,8 @@ public class Instructor {
             CascadeType.MERGE,
             CascadeType.PERSIST,
             CascadeType.REFRESH})
+    //Look at the instructor property in the Course class,
+    // use the information @JoinColumn to help find the associated courses for the instructor
     private List<Course> courses;
 
     public Instructor() {
