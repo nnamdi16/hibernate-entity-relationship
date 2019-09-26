@@ -19,12 +19,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -510,7 +505,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/ReadStudentDemo.java</url>
           <line>9</line>
-          <properties class="com.company.hibernate.demo.ReadStudentDemo" method="main">
+          <properties class="com.company.hibernate.demo.ReadStudentDemo">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
@@ -518,7 +513,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/QueryStudentDemo.java</url>
           <line>11</line>
-          <properties class="com.company.hibernate.demo.QueryStudentDemo" method="main">
+          <properties class="com.company.hibernate.demo.QueryStudentDemo">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
