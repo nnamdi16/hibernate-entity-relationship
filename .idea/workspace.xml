@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/GetCourseAndReviewsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/GetCourseAndReviewsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Review.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,27 +171,6 @@
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
       <workItem from="1569394530583" duration="30845000" />
-    </task>
-    <task id="LOCAL-00008" summary="Query the database for all students in the database">
-      <created>1569333485964</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1569333485964</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Query the database using certain parameters">
-      <created>1569334398086</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1569334398086</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Updating student profile and write further queries using the HQL Like query parameter.">
-      <created>1569338039853</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1569338039853</updated>
     </task>
     <task id="LOCAL-00011" summary="Bulk update using executeUpdate methpd">
       <created>1569339561913</created>
@@ -515,7 +494,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569454032309</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course.">
+      <created>1569571554259</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1569571554259</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course.">
+      <created>1569571606995</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1569571606995</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course.">
+      <created>1569571617568</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1569571617568</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +538,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Add a catch block and close the session to avoid connection leakages when an Id not available in the database is passed." />
     <MESSAGE value="Modify the CascadeType in InstructorDetail.java so that deleting an instructorDetail doesn't make for deleting an instructor." />
     <MESSAGE value="Implement deleting a particular InstructorDetail using its ID without deleting associated Instructor by breaking the bi-directional link(removing associated object reference) and update the cascade except for remove type." />
     <MESSAGE value="Create a course class and implement many-to-one relationship using all the cascade types apart from remove" />
@@ -563,7 +562,8 @@
     <MESSAGE value="Refactor the code and change the connection url to implement the oneToMany uni-directional" />
     <MESSAGE value="Create a list of reviews field, implement lazy loading, cascade and reference the course_id(foreign key) in the Review table" />
     <MESSAGE value="Create a review table and mapped the fields to their respective columns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a review table and mapped the fields to their respective columns" />
+    <MESSAGE value="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -586,6 +586,19 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java</url>
+          <line>12</line>
+          <properties class="com.company.hibernate.demo.GetCourseAndReviewsDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

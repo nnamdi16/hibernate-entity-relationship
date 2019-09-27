@@ -15,7 +15,7 @@ public class Review {
   @Column(name = "comment")
   private String comment;
   
-  @ManyToOne
+  @ManyToOne(fetch = FetchType.LAZY)
   private Course course;
   
   //Define constructor

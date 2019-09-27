@@ -30,14 +30,14 @@ public class GetCourseAndReviewsDemo {
       session.beginTransaction();
       
       //Get the course
-      int theId = 10;
-      Course tempCourse = session.get(Course.class, theId);
-      System.out.println("Working with the reviews " + tempCourse.getReviews());
+//      int theId = 10;
+//      Course tempCourse = session.get(Course.class, theId);
+//      System.out.println("Working with the reviews " + tempCourse.getReviews());
       
       //Get the review
       int theReview = 6;
       Review tempReview = session.get(Review.class, theReview);
-      System.out.println("Working with the Course: " + tempReview.getCourse());
+      System.out.println("Working with the Course: " + tempReview);
       
       session.getTransaction().commit();
       System.out.println("Done !!");
