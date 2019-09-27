@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteCourseAndReviewsDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,13 +165,6 @@
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
       <workItem from="1569394530583" duration="30845000" />
-    </task>
-    <task id="LOCAL-00013" summary="Delete and modify some file">
-      <created>1569360942646</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1569360942646</updated>
     </task>
     <task id="LOCAL-00014" summary="Add InstructionDetail and Instructor class">
       <created>1569360997335</created>
@@ -511,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569573900067</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Implement delete a particular review without deleting the course or other courses by not specifying Cascade.ALL in a Many-To-One ER(Entity Relationship)">
+      <created>1569574266515</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1569574266515</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +532,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Implement deleting a particular InstructorDetail using its ID without deleting associated Instructor by breaking the bi-directional link(removing associated object reference) and update the cascade except for remove type." />
     <MESSAGE value="Create a course class and implement many-to-one relationship using all the cascade types apart from remove" />
     <MESSAGE value="Implement a bi-directional relationship between the course and the instructor( one-to-many relationship), adopting all cascade types apart from remove" />
     <MESSAGE value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
@@ -559,7 +556,8 @@
     <MESSAGE value="Create a review table and mapped the fields to their respective columns" />
     <MESSAGE value="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course." />
     <MESSAGE value="Modify files to ascertain the implementation of Lazy and Eager Loading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify files to ascertain the implementation of Lazy and Eager Loading" />
+    <MESSAGE value="Implement delete a particular review without deleting the course or other courses by not specifying Cascade.ALL in a Many-To-One ER(Entity Relationship)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement delete a particular review without deleting the course or other courses by not specifying Cascade.ALL in a Many-To-One ER(Entity Relationship)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
