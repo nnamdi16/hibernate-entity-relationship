@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteCourseManyToManyDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,13 +165,6 @@
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
       <workItem from="1569394530583" duration="30845000" />
-    </task>
-    <task id="LOCAL-00018" summary="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL">
-      <created>1569363739569</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1569363739569</updated>
     </task>
     <task id="LOCAL-00019" summary="Create a main or controller class DeleteDemo, create session factory, create session,Start the transaction and get the instructor using its primary key, Check if the instructor exist and Delete">
       <created>1569363879027</created>
@@ -511,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569586685902</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Implement delete a course without deleting the student, only deleting their relationship.">
+      <created>1569588736446</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1569588736446</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +532,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
     <MESSAGE value="Create a new instructor and add Course table to the session factory" />
     <MESSAGE value="Create a CreateInstructorDemo class" />
     <MESSAGE value="Create a course class and implement ManyToOne relationship to map a particular instructor to it's Id in the course table" />
@@ -559,7 +556,8 @@
     <MESSAGE value="Implement delete a particular review without deleting the course or other courses by not specifying Cascade.ALL in a Many-To-One ER(Entity Relationship)" />
     <MESSAGE value="Implement Many-to-Many entity relationship using a JoinTable, join column and an inverseJoinColumn, create Student entity Table and CreateCourseAndStudentDemo.java for mapping many courses to many students and also mapping a particular course to a particular student" />
     <MESSAGE value="Implement adding more courses to a particular student" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement adding more courses to a particular student" />
+    <MESSAGE value="Implement delete a course without deleting the student, only deleting their relationship." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement delete a course without deleting the student, only deleting their relationship." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
