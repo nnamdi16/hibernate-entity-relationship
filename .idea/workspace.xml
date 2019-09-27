@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCoursesAndStudentsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49afe123-ba95-4301-8b01-9d894625c3b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/49afe123-ba95-4301-8b01-9d894625c3b6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCoursesAndStudentsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateCoursesAndStudentsDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,13 +168,6 @@
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
       <workItem from="1569394530583" duration="30845000" />
-    </task>
-    <task id="LOCAL-00015" summary="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method.">
-      <created>1569361234803</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1569361234803</updated>
     </task>
     <task id="LOCAL-00016" summary="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method.">
       <created>1569361252544</created>
@@ -519,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569574278261</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Implement Many-to-Many entity relationship using a JoinTable, join column and an inverseJoinColumn, create Student entity Table and CreateCourseAndStudentDemo.java for mapping many courses to many students and also mapping a particular course to a particular student">
+      <created>1569585938771</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1569585938771</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +535,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Create a course class and implement many-to-one relationship using all the cascade types apart from remove" />
     <MESSAGE value="Implement a bi-directional relationship between the course and the instructor( one-to-many relationship), adopting all cascade types apart from remove" />
     <MESSAGE value="Add Course class to session factory, implement bi-directional relationship between many courses and a particular course by creating a list of courses and linking them to a particular instructor in instructor table" />
     <MESSAGE value="Create a new instructor and add Course table to the session factory" />
@@ -567,7 +559,8 @@
     <MESSAGE value="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course." />
     <MESSAGE value="Modify files to ascertain the implementation of Lazy and Eager Loading" />
     <MESSAGE value="Implement delete a particular review without deleting the course or other courses by not specifying Cascade.ALL in a Many-To-One ER(Entity Relationship)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement delete a particular review without deleting the course or other courses by not specifying Cascade.ALL in a Many-To-One ER(Entity Relationship)" />
+    <MESSAGE value="Implement Many-to-Many entity relationship using a JoinTable, join column and an inverseJoinColumn, create Student entity Table and CreateCourseAndStudentDemo.java for mapping many courses to many students and also mapping a particular course to a particular student" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Many-to-Many entity relationship using a JoinTable, join column and an inverseJoinColumn, create Student entity Table and CreateCourseAndStudentDemo.java for mapping many courses to many students and also mapping a particular course to a particular student" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

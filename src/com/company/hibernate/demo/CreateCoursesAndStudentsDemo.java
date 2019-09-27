@@ -28,15 +28,15 @@ public class CreateCoursesAndStudentsDemo {
       session.beginTransaction();
       
       //Create a course
-      int theId = 10;
+      int theId = 14;
       Course tempCourse = session.get(Course.class, theId);
       System.out.println(tempCourse);
       
       int studentId = 2;
       Student tempStudent = session.get(Student.class, studentId);
-      System.out.println(tempStudent);
-      
-      //Add student
+      System.out.println(tempStudent.getCourses());
+
+//      Add student
       tempCourse.addStudent(tempStudent);
       session.save(tempCourse);
 
