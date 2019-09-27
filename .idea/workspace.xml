@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteCourseAndReviewsDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +69,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetCourseAndReviewsDemo">
+  <component name="RunManager" selected="Application.DeleteCourseAndReviewsDemo">
     <configuration name="CreateCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.CreateCoursesAndReviewsDemo" />
+      <module name="hibernate1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.DeleteCourseAndReviewsDemo" />
       <module name="hibernate1" />
       <extension name="coverage">
         <pattern>
@@ -122,33 +135,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.hibernate.demo.GetInstructorCoursesDemo" />
-      <module name="hibernate1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.hibernate.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.GetInstructorCoursesDemo" />
       <item itemvalue="Application.EagerLazyDemo" />
       <item itemvalue="Application.FetchJoinDemo" />
       <item itemvalue="Application.CreateCoursesAndReviewsDemo" />
       <item itemvalue="Application.GetCourseAndReviewsDemo" />
+      <item itemvalue="Application.DeleteCourseAndReviewsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteCourseAndReviewsDemo" />
         <item itemvalue="Application.GetCourseAndReviewsDemo" />
         <item itemvalue="Application.CreateCoursesAndReviewsDemo" />
         <item itemvalue="Application.FetchJoinDemo" />
         <item itemvalue="Application.EagerLazyDemo" />
-        <item itemvalue="Application.GetInstructorCoursesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -167,13 +167,6 @@
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
       <workItem from="1569394530583" duration="30845000" />
-    </task>
-    <task id="LOCAL-00012" summary="Implement delete in HQL using HQL delete query and session's delete method">
-      <created>1569340576662</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1569340576662</updated>
     </task>
     <task id="LOCAL-00013" summary="Delete and modify some file">
       <created>1569360942646</created>
@@ -511,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569573599609</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Modify files to ascertain the implementation of Lazy and Eager Loading">
+      <created>1569573900067</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1569573900067</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
