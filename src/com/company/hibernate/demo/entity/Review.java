@@ -15,7 +15,7 @@ public class Review {
   @Column(name = "comment")
   private String comment;
   
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
   private Course course;
   
   //Define constructor

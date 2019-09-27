@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/GetCourseAndReviewsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/GetCourseAndReviewsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibernate1/com/company/hibernate/demo/entity/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/GetCourseAndReviewsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/entity/Review.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,13 +167,6 @@
       <workItem from="1569358405217" duration="108000" />
       <workItem from="1569358535681" duration="5869000" />
       <workItem from="1569394530583" duration="30845000" />
-    </task>
-    <task id="LOCAL-00011" summary="Bulk update using executeUpdate methpd">
-      <created>1569339561913</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1569339561913</updated>
     </task>
     <task id="LOCAL-00012" summary="Implement delete in HQL using HQL delete query and session's delete method">
       <created>1569340576662</created>
@@ -515,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569571617568</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Modify files to ascertain the implementation of Lazy and Eager Loading">
+      <created>1569573599609</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1569573599609</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +534,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Modify the CascadeType in InstructorDetail.java so that deleting an instructorDetail doesn't make for deleting an instructor." />
     <MESSAGE value="Implement deleting a particular InstructorDetail using its ID without deleting associated Instructor by breaking the bi-directional link(removing associated object reference) and update the cascade except for remove type." />
     <MESSAGE value="Create a course class and implement many-to-one relationship using all the cascade types apart from remove" />
     <MESSAGE value="Implement a bi-directional relationship between the course and the instructor( one-to-many relationship), adopting all cascade types apart from remove" />
@@ -563,7 +558,8 @@
     <MESSAGE value="Create a list of reviews field, implement lazy loading, cascade and reference the course_id(foreign key) in the Review table" />
     <MESSAGE value="Create a review table and mapped the fields to their respective columns" />
     <MESSAGE value="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement OneToMany mapping bidirectional using the inverse  ManyToOne, using a review to access one course." />
+    <MESSAGE value="Modify files to ascertain the implementation of Lazy and Eager Loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify files to ascertain the implementation of Lazy and Eager Loading" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
