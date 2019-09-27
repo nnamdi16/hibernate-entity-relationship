@@ -15,6 +15,9 @@ public class Review {
   @Column(name = "comment")
   private String comment;
   
+  @ManyToOne
+  private Course course;
+  
   //Define constructor
   public Review() {
   }
@@ -38,6 +41,14 @@ public class Review {
   
   public void setComment(String comment) {
     this.comment = comment;
+  }
+  
+  public Course getCourse() {
+    return course;
+  }
+  
+  public void setCourse(Course course) {
+    this.course = course;
   }
   
   @Override

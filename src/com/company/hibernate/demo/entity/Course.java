@@ -27,6 +27,9 @@ public class Course {
   
   @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
   @JoinColumn(name = "course_id")
+  //@JoinColumn tells Hibernate to look at the course_id column in Review
+  // table, use the information to find the associated review
+  
   private List<Review> reviews;
 
     public Course() {
