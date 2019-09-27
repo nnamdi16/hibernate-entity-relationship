@@ -31,6 +31,17 @@ public class Course {
   // table, use the information to find the associated review
   
   private List<Review> reviews;
+  
+  
+  @ManyToMany(cascade = {CascadeType.DETACH,
+          CascadeType.MERGE,
+          CascadeType.PERSIST,
+          CascadeType.REFRESH}, fetch = FetchType.LAZY)
+  @JoinTable(name = "course_student",
+          joinColumns = @JoinColumn(name = "course_id"),
+          inverseJoinColumns = @JoinColumn(name = "student_id"))
+  
+  private List<Student> students;
 
     public Course() {
 
@@ -72,6 +83,14 @@ public class Course {
     this.reviews = reviews;
   }
   
+  public List<Student> getStudents() {
+    return students;
+  }
+  
+  public void setStudents(List<Student> students) {
+    this.students = students;
+  }
+  
   //Add a convenience method
   
   public void addReview(Review theReview) {
@@ -81,7 +100,14 @@ public class Course {
       reviews.add(theReview);
     }
   }
-    
+  
+  public void addStudent(Student theStudent) {
+    if (students == null) {
+      students = new ArrayList<>();
+    } else {
+      students.add(theStudent);
+    }
+  }
     @Override
     public String toString() {
         return "Course{" +
